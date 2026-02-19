@@ -134,7 +134,7 @@ wheels = [
 [[package]]
 name = "datashield"
 version = "0.3.0"
-source = { git = "https://github.com/datashield/datashield-python.git?rev=feat%2Fconfig#ba562dd4b4bbbea47fefa98b4ba6fda6f82d3071" }
+source = { git = "https://github.com/datashield/datashield-python.git?rev=master#6f4a3170c5a1df3a32cf6477425aff0629099430" }
 dependencies = [
     { name = "pydantic" },
     { name = "pyyaml" },
@@ -152,7 +152,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "datashield", git = "https://github.com/datashield/datashield-python.git?rev=feat%2Fconfig" },
+    { name = "datashield", git = "https://github.com/datashield/datashield-python.git?rev=master" },
     { name = "datashield-opal", specifier = ">=0.2.0" },
     { name = "pandas", specifier = ">=3.0.1" },
 ]
