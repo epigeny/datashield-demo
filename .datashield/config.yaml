@@ -1,0 +1,15 @@
+servers:
+  - name: server1
+    url: https://opal-demo.obiba.org
+    user: dsuser
+    password: P@ssw0rd
+    profile: survival
+  - name: server2
+    url: https://opal-demo.obiba.org
+    user: dsuser
+    password: P@ssw0rd
+    profile: survival
+  - name: server3
+    url: http://localhost:8080
+    user: administrator
+    password: password
