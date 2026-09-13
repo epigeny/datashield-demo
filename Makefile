@@ -1,9 +1,8 @@
 install:
 	uv sync
 
-update:
-	rm uv.lock
-	uv sync
+upgrade:
+	uv lock --upgrade
 
 run-utils:
 	uv run python ds-utils.py
